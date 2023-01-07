@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <div>
       <footer className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+  <div className=" px-5 py-24  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col shadow-[0px_-15px_15px_-3px_rgba(0,0,0,0.1)]">
+    <div className="w-64 flex-shrink-0 md:ml-20 mx-auto text-center md:text-left">
       <Link href={"/"} legacyBehavior>
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <Image src="/logo.png" alt="logo"  width={403} height={86}/>

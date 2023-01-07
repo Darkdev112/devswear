@@ -20,7 +20,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="cart absolute right-0 top-7 mx-5 md:top-auto">
-        <BsCart3 className='text-2xl md:text-3xl'/>
+        <BsCart3 className='text-2xl md:text-3xl cursor-pointer'/>
       </div>
     </div>
   )
