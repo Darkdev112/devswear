@@ -9,9 +9,9 @@ const Mug = () => {
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -21,9 +21,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -33,9 +33,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -45,9 +45,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -57,9 +57,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -69,9 +69,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -81,9 +81,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -93,9 +93,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -105,9 +105,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -117,9 +117,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -129,9 +129,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>
@@ -141,9 +141,9 @@ const Mug = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Wrogn">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0  block" src="https://m.media-amazon.com/images/I/51Bin9Dk4BL._SX300_SY300_QL70_FMwebp_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Printed Mugs</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Tech Access</h2>

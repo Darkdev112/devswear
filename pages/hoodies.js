@@ -9,9 +9,9 @@ const Hoodies = () => {
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -21,9 +21,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -33,9 +33,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -45,9 +45,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -57,9 +57,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -69,9 +69,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -81,9 +81,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -93,9 +93,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -105,9 +105,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -117,9 +117,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -129,9 +129,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
@@ -141,9 +141,9 @@ const Hoodies = () => {
             </div>
             <div className="lg:w-1/5 md:w-1/2 p-5 w-full shadow-lg m-8">
               <Link href="/product/Levi's">
-                <a className="block relative rounded overflow-hidden">
+                <div className="block relative rounded overflow-hidden cursor-pointer">
                   <img alt="tshirts" className="m-auto md:mx-0 block" src="https://m.media-amazon.com/images/I/51+Nbaa985L._UX569_.jpg" />
-                </a>
+                </div>
                 <div className="mt-4 text-center md:text-left">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Black Hoodie</h3>
                   <h2 className="text-gray-900 title-font text-lg font-medium">Levi's</h2>
