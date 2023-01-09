@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import { useState } from 'react'
 
-const Product = () => {
+const Product = ({cart, addToCart}) => {
   const router = useRouter()
   const { slug } = router.query
   const [pin, setPin] = useState();
@@ -95,13 +95,14 @@ const Product = () => {
               </div>
               <div className="flex">
                 <span className="title-font font-medium text-2xl text-gray-900">₹49.00</span>
-                <button className="flex ml-11 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-6 focus:outline-none hover:bg-[#82bb20] rounded">Buy Now</button>
-                <button className="flex ml-4 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-6 focus:outline-none hover:bg-[#82bb20] rounded">Add to Cart</button>
+                <button className="flex ml-11 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-3 focus:outline-none hover:bg-[#82bb20] rounded">Buy Now</button>
+                <button onClick={()=>{addToCart(slug,1,499,"Wear the code" , "XL", "Red")
+              console.log(cart)}} className="flex ml-4 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-3 focus:outline-none hover:bg-[#82bb20] rounded">Add to Cart</button>
               </div>
-              <div className="flex flex-col h-[238px] my-6 rounded p-4 shadow-sm">
+              <div className="flex flex-col h-[235px] my-6 rounded p-4 shadow-sm">
                 <h2 className='text-2xl text-black font-semibold text-left p-1 my-4'>Check Availability</h2>
                 <input placeholder="Enter your pincode" type="number" className='border-2 rounded-lg p-1 h-10 m-2 border-green-200' onChange={handlePinChange}/>
-                <button onClick={checkService} className='flex ml-auto mr-2 text-white bg-[#b1fc31] border-0 py-2 px-6 focus:outline-none hover:bg-[#82bb20] rounded'>Check</button>
+                <button onClick={()=>{if(pin)checkService()}} className='flex ml-auto mr-2 mt-1 text-white bg-[#b1fc31] border-0 py-1 px-3 focus:outline-none hover:bg-[#82bb20] rounded'>Check</button>
                 {(!service && service!=null) && <div className='text-sm text-red-600 m-2 font-semibold'>
                   Sorry! We don't deliver to this pin code.
                 </div>}
