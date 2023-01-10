@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { BsCart3, BsFillBagCheckFill,BsArrowLeftCircle } from 'react-icons/bs'
 import {  AiFillMinusCircle, AiFillPlusCircle } from 'react-icons/ai'
+import {MdAccountCircle} from 'react-icons/md'
 
 const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
   const ref = useRef();
@@ -31,8 +32,9 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
           <Link href="/mugs" legacyBehavior><a><li className='hover:text-[#82bb20]'>Mugs</li></a></Link>
         </ul>
       </div>
-      <div onClick={toggleClick} className="cart absolute right-0 top-7 mx-5 md:top-auto">
-        <BsCart3 className='text-2xl md:text-3xl cursor-pointer hover:text-[#82bb20]' />
+      <div  className=" flex flex-row cart absolute right-0 top-6 mr-2 md:mx-5 md:top-auto">
+        <Link href={"/login"}><MdAccountCircle className='text-2xl md:text-3xl mr-1  md:mr-5 hover:text-[#82bb20]'/></Link>
+        <BsCart3 onClick={toggleClick} className='text-2xl md:text-3xl cursor-pointer hover:text-[#82bb20]' />
       </div>
       <div ref={ref} className='sidecart absolute top-0 right-0  bg-green-100 w-[75vw] md:w-[500px] z-10 py-4 md:p-10 transform transition-transform translate-x-full shadow-md'>
         <div className="container">

@@ -67,7 +67,6 @@ export default function App({ Component, pageProps }) {
     <>
       <Navbar cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} clearCart={clearCart} subTotal={subTotal}/>
       <Component {...pageProps} cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} clearCart={clearCart} subTotal={subTotal} />
-      <Footer />
     </>
   )
 }
