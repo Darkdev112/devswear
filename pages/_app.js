@@ -11,12 +11,13 @@ export default function App({ Component, pageProps }) {
     try {
       if(localStorage.getItem("cart")){
         setCart(JSON.parse(localStorage.getItem("cart")))
+        saveCart(JSON.parse(localStorage.getItem("cart")));
       }
     } catch (error) {
       console.log(error);
       localStorage.clear();
     }
-  },[])
+  },[subTotal])
 
   const saveCart = (myCart) =>{
     localStorage.setItem("cart",JSON.stringify(myCart))
@@ -41,6 +42,7 @@ export default function App({ Component, pageProps }) {
     }
     setCart(newCart);
     saveCart(newCart);
+    console.log(cart);
   }
 
   const clearCart = () => {

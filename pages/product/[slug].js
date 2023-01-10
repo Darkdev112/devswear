@@ -97,7 +97,7 @@ const Product = ({cart, addToCart}) => {
                 <span className="title-font font-medium text-2xl text-gray-900">₹49.00</span>
                 <button className="flex ml-11 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-3 focus:outline-none hover:bg-[#82bb20] rounded">Buy Now</button>
                 <button onClick={()=>{addToCart(slug,1,499,"Wear the code" , "XL", "Red")
-              console.log(cart)}} className="flex ml-4 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-3 focus:outline-none hover:bg-[#82bb20] rounded">Add to Cart</button>
+              }} className="flex ml-4 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-3 focus:outline-none hover:bg-[#82bb20] rounded">Add to Cart</button>
               </div>
               <div className="flex flex-col h-[235px] my-6 rounded p-4 shadow-sm">
                 <h2 className='text-2xl text-black font-semibold text-left p-1 my-4'>Check Availability</h2>
