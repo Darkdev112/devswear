@@ -1,11 +1,14 @@
 import { useRouter } from 'next/router'
 import { useState } from 'react'
+const mongoose = require("mongoose");
+import Product from "../../models/Product"
 
-const Product = ({cart, addToCart}) => {
+const Product_this = ({cart, addToCart, product}) => {
   const router = useRouter()
   const { slug } = router.query
   const [pin, setPin] = useState();
   const [service, setService] = useState();
+  console.log(product);
 
   const checkService = async()=>{
     const pins = await fetch("http://localhost:3000/api/pincode");
@@ -33,10 +36,10 @@ const Product = ({cart, addToCart}) => {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-16 md:py-16 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap justify-center ">
-          <img alt="ecommerce" className="md:mb-auto md:mt-7 w-[50%] lg:w-auto h-auto px-5 " src="https://m.media-amazon.com/images/I/713Mlxk0c6L._AC_UL320_.jpg"/>
+          <img alt="ecommerce" className="md:mb-auto md:mt-7 w-auto h-[350px] px-5 " src={product.img}/>
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              <h2 className="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1>
+              <h2 className="text-sm title-font text-gray-500 tracking-widest">{product.desc}</h2>
+              <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">{product.title}</h1>
               <div className="flex mb-4">
                 <span className="flex items-center">
                   <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 text-[#b1fc31]" viewBox="0 0 24 24">
@@ -80,10 +83,7 @@ const Product = ({cart, addToCart}) => {
                   <span className="mr-3">Size</span>
                   <div className="relative">
                     <select className="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10">
-                      <option>SM</option>
-                      <option>M</option>
-                      <option>L</option>
-                      <option>XL</option>
+                      {product.size.split(",").map((op)=>{return(op && <option>{op}</option>)})}
                     </select>
                     <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
                       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4" viewBox="0 0 24 24">
@@ -94,7 +94,7 @@ const Product = ({cart, addToCart}) => {
                 </div>
               </div>
               <div className="flex">
-                <span className="title-font font-medium text-2xl text-gray-900">₹49.00</span>
+                <span className="title-font font-medium text-2xl text-gray-900">{`₹ ${product.price}`}</span>
                 <button className="flex ml-11 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-3 focus:outline-none hover:bg-[#82bb20] rounded">Buy Now</button>
                 <button onClick={()=>{addToCart(slug,1,499,"Wear the code" , "XL", "Red")
               }} className="flex ml-4 text-white bg-[#b1fc31] border-0 py-2 px-2 md:px-3 focus:outline-none hover:bg-[#82bb20] rounded">Add to Cart</button>
@@ -117,4 +117,16 @@ const Product = ({cart, addToCart}) => {
   )
 }
 
-export default Product
+export async function getServerSideProps(context) {
+  const slug = context.params.slug;
+  if (!mongoose.connections[0].readyState) {
+    mongoose.set('strictQuery', false);
+    mongoose.connect(process.env.MONGO_URI);
+  }
+  let product = await Product.find({slug: slug});
+  return {
+    props: { product: JSON.parse(JSON.stringify(product[0])) },
+  }
+}
+
+export default Product_this
